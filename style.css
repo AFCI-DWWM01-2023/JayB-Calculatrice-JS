@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 0%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#container {
+    display:flex;
+    justify-content: center;
+    
+    
+}
+#container article {
+    flex-direction: column;
+    display: flex;
+    width: 33vw;
+    height :60vh;
+    border-color: rgb(73, 80, 80);
+    border-width: 2px;
+    border-radius: 1px;
+    border-style: solid;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(177,177,182,1) 1%, rgba(0,212,255,1) 100%); 
+}   
+/* 3 parties de la calculette */
+/* contenu de displayinput */
+#displayinput{
+    display: flex;
+    justify-content: end;
+    padding : 10px;
+    text-align: justify;
+    flex:0.3
+}
+    #displayinput p{
+        
+        font-size: 2vw;
+    }
+    #reinit{
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(101,92,74,1) 100%);
+        font-size: 2vw;
+        color:white ;
+        width : 4vw;
+        height : 4vw;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px 1px rgba(8, 68, 13, 0.2);
+        margin : 2px;  
+        justify-content: center;
+        
+    }
+/* ------------------------ */
+/* contenu de nbinput */
+#nbinput{
+    flex :1;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    flex : 1;
+    border-radius: 5px;
+}
+
+    #nb{
+        width : 8vw;
+        height : 4vw;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px 1px rgba(8, 68, 13, 0.2);
+        margin : 2px;   
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 31%, rgba(0,212,255,1) 100%);
+        font-size: 2vw;
+        color:white
+
+    } 
+/* ---------------------- */
+/* contenu de part 2 */
+#part2{
+    
+    flex: 0.2;
+    padding: 10px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+}
+    /* contenu de nboperator */
+    #nboperator{
+    flex: 1;
+    
+    }
+        #nboperator1{
+            background: rgb(34,193,195);
+            background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(101,92,74,1) 100%);
+            font-size: 2vw;
+            color:white ;
+            width : 8vw;
+            height : 4vw;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px 1px rgba(8, 68, 13, 0.2);
+            margin : 2px;  
+            justify-content: center;
+        }
+        #nboperatorend{
+            background: rgb(34,193,195);
+            background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(101,92,74,1) 100%);
+            font-size: 2vw;
+            color:white ;
+            width : 8vw;
+            height : 4vw;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px 1px rgba(8, 68, 13, 0.2);
+            margin : 2px;  
+            justify-content: center;
+        }
+    /* ---------------------- */
+    /* contenu de treatment */
+    #treatment{
+        flex:1;
+        padding: 10px;
+        border-radius: 2px
+    }
+        #treatment p{
+            
+        }
+    /* ---------------------- */
+
+/* ------------------------- */
+/* ----------------------------------------- */
+
+.line{
+    width: 100%;
+    height :5px;
+    background-color :rgb(155, 216, 189)
+}
+
+
+
+
+
+
+
+#displayinput h1{
+    font-size: 30px;
+}
